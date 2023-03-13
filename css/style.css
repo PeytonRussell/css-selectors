@@ -28,23 +28,35 @@ header > p {
     font-size: 1.25rem;
 }
 
+.profile-pic
 {
-    profile-pic:
     width: 150px
     border-radius: 50%;
 }
 
+a[rel="external"]
 {
-    rel=external
     color: purple;
 }
 
+#experience
 {
-    id: experience
     border-bottom: 2px dashed #ccc;
 }
 
+main:first-child
+{
+    margin-bottom: 3rem;
+}
 
+
+#section-main > h2 ~ p strong {
+    color:green;
+}
+
+li:nth-child(even){
+    color: purple
+} 
 
 
 
